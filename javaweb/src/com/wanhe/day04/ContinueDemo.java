@@ -34,9 +34,9 @@ public class ContinueDemo {
         for(int x=1; x<=10; x++) {
             if(x%3==0) {
                 //在此处填写代码
-                //break;
-                //continue;
-                System.out.println("Java基础班");
+                //break;//2次
+                //continue;//7次
+                System.out.println("Java基础班");//13次
             }
             System.out.println("Java基础班");
         }
