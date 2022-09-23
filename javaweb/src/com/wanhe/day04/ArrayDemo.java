@@ -1,7 +1,7 @@
 package com.wanhe.day04;
 
 /*
-数组：数组就是用来存储一批同种类型数据的内存区域（容器）
+数组：数组就是用来存储一批同种类型数据的内存区域（容器
 数组定义的格式：
     数组类型[]  变量名;
     int[] arr;
@@ -19,6 +19,7 @@ package com.wanhe.day04;
  */
 
 public class ArrayDemo {
+
     public static void main(String[] args) {
         //1班三位同学的分数
         int classScore1 = 100;
