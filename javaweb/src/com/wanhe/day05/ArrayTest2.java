@@ -1,6 +1,5 @@
 package com.wanhe.day05;
 
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -23,31 +22,30 @@ import java.util.Scanner;
 public class ArrayTest2 {
     public static void main(String[] args) {
         Random r = new Random();
-        Scanner sc = new Scanner(System.in);
         int[] arr = new int[5];
-        for (int i = 0; i < 5; i++){
-           arr[i]= r.nextInt(20) + 1;
-
+        for (int i = 0; i < 5; i++) {
+            arr[i] = r.nextInt(20);
         }
+        System.out.println("请输入你要猜的数");
+        Scanner sc = new Scanner(System.in);
 
-
-        while (true){
-            for (int i = 0; i < 5; i++){
-                int num = sc.nextInt();
-                System.out.println("请输入您的数字");
-                if (num == arr[i]){
-                    System.out.println("运气不错，猜中了");
-                    System.out.println(Arrays.toString(arr));
-                    break;
+        int flag = 1;
+        while (flag == 1) {
+            int x = sc.nextInt();
+            for (int i = 0; i < 5; i++) {
+                if (x == arr[i]) {
+                    flag = 0;
+                    System.out.println("运气不错，猜中了" + "\n" + "该数据第一次出现在第" + (i + 1) + "位");
+                    for (int j = 0; j < 5; j++) {
+                        System.out.print(arr[j] + " ");
+                    }
                 }
+            }
+            if (flag == 1) {
+                System.out.println("未命中，并继续猜");
             }
 
         }
-
-
-
-
-
 
     }
 }
