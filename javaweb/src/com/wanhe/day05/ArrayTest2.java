@@ -1,5 +1,6 @@
 package com.wanhe.day05;
 
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -21,6 +22,82 @@ import java.util.Scanner;
  */
 public class ArrayTest2 {
     public static void main(String[] args) {
+        //test1();
+        //test2();
+        //test3();
+        test4();
+
+    }
+
+    private static void test4() {
+        int[] arr = new int[]{1,3,5,7};
+        int[] brr = new int[]{1,3,5,9};
+
+        //内容、个数完全一样
+        if (arr==brr){
+            System.out.println("两个数组相同");
+        }else {
+            //地址值不同，是两个数组
+            if (arr.length != brr.length){
+                System.out.println("两个数组不相同");
+            }else {
+                for (int i = 0; i < arr.length; i++){
+                    if (arr[i] != brr[i]){
+                        System.out.println("两个数组不相同");
+                        return;
+                    }
+                }
+                System.out.println("两个数组相同");
+            }
+        }
+
+    }
+
+    private static void test3() {
+        int[] arr = {12,23,98};
+        System.out.println("逆序前："+ Arrays.toString(arr));
+
+//        for (int i = 0; i < arr.length / 2; i++){
+//            int temp;
+//            temp = arr[i];
+//            arr[i] = arr[arr.length - 1 - i];
+//            arr[arr.length - 1 - i] = temp;
+//        }
+//
+        for (int start = 0,end = arr.length-1;start<=end;start++,end--){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+        }
+
+        System.out.println("逆序后: "+Arrays.toString(arr));
+//        System.out.print("逆序后：");
+//        for (int i = 0; i < arr.length; i++){
+//            System.out.print(arr[i] + " ");
+//        }
+    }
+
+    private static void test2() {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[5];
+        for (int i = 0; i < 5; i++) {
+            System.out.println("请输入第" + (i + 1) + "位员工工号");
+            arr[i] = sc.nextInt();
+        }
+        Random r = new Random();
+        int[] arr1 = new int[5];
+        for (int i = 0; i < 5; i++) {
+            arr1[i] = r.nextInt(5);
+            int temp = arr[arr1[i]];
+            arr[arr1[i]] = arr[i];
+            arr[i] = temp;
+        }
+        for (int i = 0; i < 5; i++) {
+            System.out.print(arr[i]);
+        }
+    }
+
+    private static void test1() {
         Random r = new Random();
         int[] arr = new int[5];
         for (int i = 0; i < 5; i++) {
@@ -46,6 +123,5 @@ public class ArrayTest2 {
             }
 
         }
-
     }
 }
