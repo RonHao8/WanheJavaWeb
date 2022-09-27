@@ -32,4 +32,5 @@ public class Test4 {
         }
         System.out.println(num + "在数组中的索引为:"+index);
     }
+    
 }
