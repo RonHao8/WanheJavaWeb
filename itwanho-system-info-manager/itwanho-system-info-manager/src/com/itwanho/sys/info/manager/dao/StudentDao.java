@@ -35,6 +35,10 @@ public class StudentDao {
     //根据id删除学生信息
     public void deleteStudentById(String delId) {
         int index = getIndex(delId);
+        if (index == -1){
+            System.out.println("该学生不存在");
+            return;
+        }
         //将索引位置使用null元素进行覆盖
         stus[index] = null;
     }
