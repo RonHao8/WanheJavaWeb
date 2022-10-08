@@ -1,13 +1,16 @@
 package com.itwanho.sys.info.manager.service;
 
-import com.itwanho.sys.info.manager.dao.StudentDao;
+import com.itwanho.sys.info.manager.dao.OtherStudentDao;
 import com.itwanho.sys.info.manager.domain.Student;
 
 /**
  * 业务员
  */
 public class StudentService {
-    private StudentDao studentDao = new StudentDao();
+    //private StudentDao studentDao = new StudentDao();
+    //集合版本的持久层
+    private OtherStudentDao studentDao = new OtherStudentDao();
+
     //添加学生信息
     public boolean addStuedent(Student stu){
         //存储学生信息-->库管

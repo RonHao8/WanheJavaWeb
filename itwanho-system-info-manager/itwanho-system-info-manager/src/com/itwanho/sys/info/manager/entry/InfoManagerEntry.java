@@ -1,6 +1,6 @@
 package com.itwanho.sys.info.manager.entry;
 
-import com.itwanho.sys.info.manager.controller.StudentController;
+import com.itwanho.sys.info.manager.controller.OtherStudentController;
 import com.itwanho.sys.info.manager.controller.TeacherController;
 
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class InfoManagerEntry {
                 case "1":
                     // System.out.println("学生管理");
                     // 开启学生管理系统
-                    StudentController studentController = new StudentController();
+                    OtherStudentController studentController = new OtherStudentController();
                     studentController.start();
                     break;
                 case "2":

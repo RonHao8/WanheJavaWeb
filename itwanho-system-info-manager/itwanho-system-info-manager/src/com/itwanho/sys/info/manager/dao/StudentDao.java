@@ -3,7 +3,19 @@ package com.itwanho.sys.info.manager.dao;
 import com.itwanho.sys.info.manager.domain.Student;
 
 public class StudentDao {
+    //数组
     private static Student[] stus = new Student[5];
+    //集合
+
+
+    //静态代码块，类加载是自动执行，只执行一次
+    static {
+        Student stu1 = new Student("wanho001","张三","23","1998-10-10");
+        Student stu2 = new Student("wanho002","李四","25","2000-10-10");
+        stus[0]=stu1;
+        stus[1]=stu2;
+    }
+
     public boolean addStudent(Student stu){
         //创建学生对象数组
         //Student[] stus = new Student[5];
