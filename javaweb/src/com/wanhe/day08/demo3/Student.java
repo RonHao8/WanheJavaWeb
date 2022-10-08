@@ -3,7 +3,7 @@ package com.wanhe.day08.demo3;
 /*
 构造方法注意事项：
     A.如果我们没有给出构造方法，系统会默认给出一个无参构造方法
-    B.如果我们给出了构造方法，系统将不再给出默认方法
+    B.如果我们给出了构造方法，系统将不再给出默认方法[
  */
 public class Student {
     private String name;
