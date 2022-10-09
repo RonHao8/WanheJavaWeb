@@ -4,7 +4,7 @@ import com.itwanho.sys.info.manager.domain.Student;
 
 import java.util.ArrayList;
 
-public class OtherStudentDao {
+public class OtherStudentDao implements BaseStudentDao{
     //数组
     //private static Student[] stus = new Student[5];
 

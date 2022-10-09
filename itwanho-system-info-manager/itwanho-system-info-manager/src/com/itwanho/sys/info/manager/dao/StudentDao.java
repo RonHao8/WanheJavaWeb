@@ -2,7 +2,7 @@ package com.itwanho.sys.info.manager.dao;
 
 import com.itwanho.sys.info.manager.domain.Student;
 
-public class StudentDao {
+public class StudentDao implements BaseStudentDao {
     //数组
     private static Student[] stus = new Student[5];
     //集合
