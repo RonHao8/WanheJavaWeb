@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>表格标签</title>
 </head>
 <body>
-$END$
+<!--
+    cellspacing:定义单元格之间的距离
+    cellpadding:定义内容和单元格之间的距离，一般指定为0
+    width:宽度
+    height:高度
+    align:表格水平对齐方式 left center right
+    bgcolor:背景色
+-->
+    <h3>三行三列的表格</h3>
+    <table border="1" cellspacing="0" cellpadding="0" width="500" height="249" align="center" bgcolor="#faebd7">
+        <tr>
+<!--            <td>姓名</td>-->
+<!--            <td>性别</td>-->
+<!--            <td>年龄</td>-->
+            <th>姓名</th><!--标题，居中且加粗-->
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+        <tr bgcolor="#7FFFD4">
+            <td>张三</td>
+            <td>男</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>男</td>
+            <td>25</td>
+        </tr>
+    </table>
 </body>
 </html>

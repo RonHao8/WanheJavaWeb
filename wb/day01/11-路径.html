@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>路径</title>
 </head>
 <body>
-$END$
+    <!-- 相对路径：从当前文件出发去找目标文件的过程
+    当前文件：D:\ideaprojects\wb\day01\
+    目标文件：D:\ideaprojects\wb\day01\09-base标签.html
+       -->
+    <a href="09-base标签.html">base标签</a>
+
+    <!--
+        当前文件：D:\ideaprojects\wb\day01\
+        目标文件：D:\ideaprojects\wb\day01\images\wo.jpg
+
+    -->
+    <img src="images/wo.jpg">
+
+    <!--绝对路径：从盘符或者http://出发去找目标文件的过程-->
+    <img src="D:\ideaprojects\wb\day01\wo.jpg">
+    <img src="http://www.wanho.org/data/upload/5acdc6e52c5a9.jpg">
 </body>
 </html>
