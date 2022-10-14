@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d6d126a-3cc5-43b9-a517-446026710c63" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/01-input表单控件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/02-下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/03-css体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/04-css和html结合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/05-选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/06-权重引入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/07-选择器权重排序.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/08-层级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/09-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/10-并集选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/11-交集选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/12-伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/13-字体样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/14-文本样式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/15-行高和首行缩进.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../wb/day02/first.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../王顺-消消乐/HappyEliminateGame/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../王顺-消消乐/HappyEliminateGame/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/out/production/HappyEliminateGame/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HappyEliminateGame/src/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/test01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../wb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../wb/homeworkday01/test03/旅游网.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../wb/homeworkday01/test03/旅游网.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2Fyhs17BVLX28BSPMk29P50P0LJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1665453288038" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../王顺-消消乐/HappyEliminateGame" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Maven goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager">
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itwanho.eliminate.World" />
+      <module name="HappyEliminateGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itwanho.eliminate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.World" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d6d126a-3cc5-43b9-a517-446026710c63" name="默认的" comment="" />
+      <created>1665369924371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665369924371</updated>
+      <workItem from="1665369929629" duration="4003000" />
+      <workItem from="1665445864381" duration="6622000" />
+      <workItem from="1665470442638" duration="16651000" />
+      <workItem from="1665553498037" duration="14613000" />
+      <workItem from="1665580747282" duration="592000" />
+      <workItem from="1665673300728" duration="202000" />
+      <workItem from="1665720079311" duration="85000" />
+      <workItem from="1665729611561" duration="2151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="835" y="197" key="FileChooserDialogImpl" timestamp="1665729622353">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="835" y="197" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1665729622353" />
+    <state width="1397" height="204" key="GridCell.Tab.0.bottom" timestamp="1665673504409">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1665673504409" />
+    <state width="1397" height="204" key="GridCell.Tab.0.center" timestamp="1665673504408">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1665673504408" />
+    <state width="1397" height="204" key="GridCell.Tab.0.left" timestamp="1665673504408">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1665673504408" />
+    <state width="1397" height="204" key="GridCell.Tab.0.right" timestamp="1665673504408">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="204" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1665673504408" />
+    <state x="377" y="211" key="run.anything.popup" timestamp="1665563868698">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="211" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1665563868698" />
+    <state x="847" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1665455515940">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="847" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1665455515940" />
+  </component>
+</project>
