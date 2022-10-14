@@ -2,9 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>伪类选择器</title>
+    <style>
+        a{
+            /*text-decoration: none;去掉下划线*/
+            font-size: 50px;
+        }
+        /*顺序不能颠倒，按照 l v h a*/
+        a:link{/*默认状态，未访问的链接*/
+            color: blue;
+        }
+        a:hover{
+            color: red;
+        }
+        a:active{/*正在点击，鼠标按下的瞬间，不要松开鼠标*/
+            color: blueviolet;
+        }
+        a:visited{/*访问过的状态*/
+            color: green;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <!--
+    伪类选择器：元素在网页操作的过程中不同的状态显示不同的样式
+    link:正常
+    hover:鼠标悬停
+    visited:访问过的
+    active:正在点击
+    -->
+    <a href="#">万和教育</a>
 </body>
 </html>

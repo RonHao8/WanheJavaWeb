@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>css和html结合</title>
+    <style>
+        div{
+            color: pink;
+            font-size: 30px;
+            border: 1px solid blue;
+        }
+    </style>
+    <!--
+    rel:设置引入的文件的类型
+    href:css样式的路径
+        -->
+    <link rel="stylesheet" href="first.css">
+<!--    <style>-->
+<!--        @import "first.css";-->
+<!--    </style>-->
 </head>
 <body>
-$END$
+    <!--将div中的字体设置为黄色，字号100px，边框-->
+    <!--  行内样式：
+           作用域：只能作用于当前页面的某个标签
+      -->
+    <div style="color: orange;font-size: 100px;border: 1px solid red">万和教育</div>
+
+    <!--  内部样式：在网页内部编写css样式，将css样式写在style标签中
+           作用域：作用于当前页面的部分标签
+      -->
+    <div>万和程序员</div>
+    <div>万和程序员</div>
+    <div>万和程序员</div>
+    <div>万和程序员</div>
+
+<!--    外部样式：
+            作用域：作用于当前项目的所有html页面-->
+    <span>万和程序员-span</span>
+    <span>万和程序员-span</span>
+    <span>万和程序员-span</span>
+    <span>万和程序员-span</span>
+
 </body>
 </html>

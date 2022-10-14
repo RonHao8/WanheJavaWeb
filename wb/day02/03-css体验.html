@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>css体验</title>
+    <style>
+        /*设置样式 选中所有行，给行中的数据添加样式*/
+        tr{
+            text-align: center;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-$END$
+<!-- 将表格中所有的文字居中，字体设置为红色-->
+<table border="1" width="400px" align="center">
+    <caption>2022年期末考试成绩单</caption>
+    <tr>
+        <th>姓名</th>
+        <th>班级</th>
+        <th>成绩</th>
+    </tr>
+    <tr>
+        <td rowspan="2">张三</td>
+        <td>计算机1班</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <!--            <td>张三</td>-->
+        <td>经济1班</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>王五</td>
+        <td>软件1班</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td colspan="2">平均分</td>
+        <!--            <td></td>-->
+        <td>85</td>
+    </tr>
+</table>
 </body>
 </html>

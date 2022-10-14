@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>交集选择器</title>
+    <style>
+        /*div{*/
+        /*    color: red;*/
+        /*}*/
+        .singer{
+            color: red;
+        }
+
+        /*.s1,.s2{*/
+        /*    font-weight: 700;*/
+        /*}*/
+
+        div.singer{/*交集选择器：同时满足多个选择器*/
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="singer s1">刘德华</div><!--既是class=singer，又是div标签-->
+    <div class="singer s2">张学友</div>
+    <p class="singer">汪峰</p>
+    <p class="singer">韩红</p>
 </body>
 </html>

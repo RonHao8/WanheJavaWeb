@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>选择器</title>
+    <style>
+    /*id选择器*/
+        #div2{
+            color: blueviolet;
+            font-size: 100px;
+            border: 1px solid red;
+        }
+
+    /*类选择器*/
+        .cla{
+            color: pink;
+            font-size: 100px;
+            border: 1px solid red;
+        }
+
+        /*标签选择器*/
+        span{
+            font-size: 100px;
+        }
+
+        /*通用选择器 选中页面所有元素 清除默认边距*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div class="cla">div1</div>
+    <div id="div2">div2</div>
+    <div class="cla">div3</div>
+
+    <span>span1</span>
+    <span>span1</span>
+    <span>span1</span>
 </body>
 </html>

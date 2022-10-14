@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>层级选择器</title>
+    <style>
+        /*选中后代*/
+        /*#a span{*/
+        /*    color: yellow;*/
+        /*    font-size: 50px;*/
+        /*}*/
+        /*选中子代*/
+        #a > span{
+            color: yellow;
+            font-size: 50px;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <div id="a">
+        <span>span1</span>
+        <div>
+            <span>span2</span>
+        </div>
+    </div>
 </body>
 </html>

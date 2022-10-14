@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>选择器权重排序</title>
+    <style>
+        #test{
+            color: pink;
+        }
+        .box{
+            color: yellow;
+        }
+        div{
+            color: blue ;
+        }
+        *{
+            color: green;
+        }
+        body{
+            color: red !important;
+        }
+    </style>
 </head>
 <body>
-$END$
+    <!--  继承 < 通用选择器 < 标签选择器 < 类选择器 < ID选择器 < 行内样式  < !import
+    !important:只针对于单条css属性起效果，而不是整个选择器
+    !important:对于继承是没有作用的
+    -->
+    <div class="box" id="test" style="color: purple">请问我的颜色是？？？</div>
 </body>
 </html>
