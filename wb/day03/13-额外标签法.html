@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>额外标签法</title>
+    <style>
+        .box1{
+            width: 600px;
+            background-color: pink;
+        }
+
+        .box2{
+            width: 600px;
+            height: 240px;
+            background-color: purple;
+        }
+
+        .son1{
+            width: 150px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+        }
+        .son2{
+            width: 300px;
+            height: 100px;
+            background-color: hotpink;
+            float: left;
+        }
+        .clear{
+            clear: both;/*清除浮动影响*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="son1"></div>
+        <div class="son2"></div>
+        <div class="clear"></div><!--在浮动的盒子后面加一个空盒子-->
+    </div>
+    <div class="box2"></div>
+</body>
+</html>

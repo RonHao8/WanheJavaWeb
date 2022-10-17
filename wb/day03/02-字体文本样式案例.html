@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字体文本样式案例</title>
+    <style>
+        div{
+            width: 400px;
+            font-size: 14px;
+        }
+        h1{
+            font-size: 18px;
+            color: #06F;
+            text-align: center;
+        }
+        .mei{
+            color: #F36;
+            font-size: 18px;
+        }
+        h1>span{
+            font-size: 12px;
+            color: #999;
+            font-weight: normal;
+        }
+        #xiong{
+            font-weight: bold;
+            font-style: italic;
+            color: blue;
+        }
+        /*结构伪类选择器
+            :last-child 选取属于其父元素的最后一个子元素的指定选择器
+            :first-child    选取属于其父元素的首个子元素的指定选择器
+            nth-child(n)    选取属于其父元素的第n个子元素
+        */
+        p:last-child{
+            color: #390;
+            text-decoration: underline;
+        }
+        p:last-child:hover{
+            /*悬停显示小手*/
+            cursor: pointer;
+        }
+        P:nth-child(2){
+
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>初相遇 <span>文/席慕容</span></h1>
+    <p><span class="mei">美</span>丽的梦和美丽的诗一样，都是可遇而不可求的，常常在最没能料到的时刻里出现。</p>
+    <p>我喜欢那样的梦，在梦里，一切都可以重新开始，一切都可以慢慢解释，心里甚至还能感觉到，所有被浪费的时光竟然都能重回时的狂喜与感激。</p>
+    <p><span id="xiong">胸怀中满溢着幸福，只因你就在我眼前，</span>对我微笑，一如当年。</p>
+    <p>我喜欢那样的梦，明明知道你已为我跋涉千里，却又觉得芳草鲜美，落落英缤纷，好像你我才初相遇。</p>
+
+</div>
+
+</body>
+</html>

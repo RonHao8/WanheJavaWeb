@@ -1,0 +1,81 @@
+/*娓呴櫎鍏冪礌榛樿鐨勫唴澶栬竟璺�  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*璁╂墍鏈夋枩浣� 涓嶅€炬枩*/
+em,
+i {
+    font-style: normal;
+}
+/*鍘绘帀鍒楄〃鍓嶉潰鐨勫皬鐐�*/
+li {
+    list-style: none;
+}
+/*鍥剧墖娌℃湁杈规   鍘绘帀鍥剧墖搴曚晶鐨勭┖鐧界紳闅�*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*璁゜utton 鎸夐挳 鍙樻垚灏忔墜*/
+button {
+    cursor: pointer;
+}
+/*鍙栨秷閾炬帴鐨勪笅鍒掔嚎*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    outline: none;  /* 鍙栨秷杞粨绾� */
+
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*娓呴櫎娴姩*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+html{scroll-behavior: smooth;}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 2075793 */
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff2') format('woff2'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

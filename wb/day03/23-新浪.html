@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新浪</title>
+    <style>
+        img{
+            display: block;
+            margin: auto;
+        }
+
+        .top{
+            position: fixed;
+            top: 0;
+            left: 50%;
+            margin-left: -759px;
+        }
+
+        .main{
+            margin-top: 4px;
+        }
+
+        /*不管当前浏览器窗口多大，都是紧紧贴在版心的左边*/
+        .ad{
+            position: fixed;
+            left: 50%;
+            /*版心的一半加上盒子自身的全部的宽度*/
+            margin-left: -621px;/*1002/2 + 120*/
+
+            top: 50%;
+            margin-top: -144px;
+        }
+    </style>
+</head>
+<body>
+    <img class="top" src="image\top.png">
+    <img class="main" src="image\box.png">
+    <img class="ad" src="image\ad-l.png">
+</body>
+</html>

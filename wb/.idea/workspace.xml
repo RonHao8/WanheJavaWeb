@@ -1,17 +1,326 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
-    <option name="y" value="67" />
-    <option name="width" value="1093" />
-    <option name="height" value="780" />
+  <component name="ChangeListManager">
+    <list default="true" id="3a638d64-5f2c-4e21-8dd6-1982a666aebb" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/day03/01-行高特殊用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/02-字体文本样式案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/03-边框与背景图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/04-元素类型转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/05-盒子模型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/06-内边距注意事项.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/07-文字环绕.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/08-浮动体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/09-浮动的特性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/10-浮动特性1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/11-浮动特性2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/12-浮动的特性3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/13-额外标签法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/14-overflow方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/15-after伪元素方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/16-定位属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/17-相对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/18-绝对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/19-绝对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/20-圆角边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/21-淘宝轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/22-固定定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/23-新浪.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/24-背景附着.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/25-盒子阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/ad-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/ad-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/checkcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/girl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/girl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/happy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/king.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/ms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/reg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/regist_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/shui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/sm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/taobao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/image/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/ling_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/logo-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/logo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/search_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/images/tou_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/学成在线.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/ling_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/logo-s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/logo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/search_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/images/tou_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeworkday02/学成在线.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ad-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ad-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/btn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/checkcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/girl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/girl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/liu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/reg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/regist_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/taobao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/头.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/头尾.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/详情页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购/首页222.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/列表页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/头部.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/框架.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/详情页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购2/首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品优购3/首页.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/test01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homeworkday01/test03/旅游网.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeworkday01/test03/旅游网.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2G3bnrmjAtyvJSjscWlgmGTEsux" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1665620231157" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/品优购" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\wb\homeworkday01\test01" />
+      <recent name="D:\ideaprojects\wb\homeworkday01\test02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaprojects\wb\品优购" />
+      <recent name="D:\ideaprojects\wb\品优购3" />
+      <recent name="D:\ideaprojects\wb\homework" />
+      <recent name="D:\ideaprojects\wb\day03" />
+      <recent name="D:\ideaprojects\wb\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a638d64-5f2c-4e21-8dd6-1982a666aebb" name="默认的" comment="" />
+      <created>1665620384929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665620384929</updated>
+      <workItem from="1665620386752" duration="11469000" />
+      <workItem from="1665656129557" duration="16523000" />
+      <workItem from="1665705294624" duration="12532000" />
+      <workItem from="1665729596263" duration="13000" />
+      <workItem from="1665732168287" duration="1002000" />
+      <workItem from="1665792004897" duration="24312000" />
+      <workItem from="1665902683910" duration="20587000" />
+      <workItem from="1665964392159" duration="12201000" />
+      <workItem from="1665988716458" duration="23674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="680" y="213" key="FileChooserDialogImpl" timestamp="1665926417695">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="680" y="213" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1665926417695" />
+    <state x="0" y="116" width="602" height="804" key="find.popup" timestamp="1665995977852">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="0" y="116" width="602" height="804" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1665995977852" />
+    <state x="711" y="193" width="672" height="678" key="search.everywhere.popup" timestamp="1666013109722">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="711" y="193" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1666013109722" />
   </component>
 </project>

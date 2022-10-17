@@ -1,0 +1,71 @@
+/* 鎶婃垜浠墍鏈夋爣绛剧殑鍐呭杈硅窛娓呴浂 */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3鐩掑瓙妯″瀷 */
+    box-sizing: border-box;
+}
+/* em 鍜� i 鏂滀綋鐨勬枃瀛椾笉鍊炬枩 */
+em,
+i {
+    font-style: normal
+}
+/* 鍘绘帀li 鐨勫皬鍦嗙偣 */
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 鐓ч【浣庣増鏈祻瑙堝櫒 濡傛灉 鍥剧墖澶栭潰鍖呭惈浜嗛摼鎺ヤ細鏈夎竟妗嗙殑闂 */
+    border: 0;
+    /* 鍙栨秷鍥剧墖搴曚晶鏈夌┖鐧界紳闅欑殑闂 */
+    vertical-align: middle
+}
+
+button {
+    /* 褰撴垜浠紶鏍囩粡杩嘼utton 鎸夐挳鐨勬椂鍊欙紝榧犳爣鍙樻垚灏忔墜 */
+    cursor: pointer
+}
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+button,
+input {
+    /* "\5B8B\4F53" 灏辨槸瀹嬩綋鐨勬剰鎬� 杩欐牱娴忚鍣ㄥ吋瀹规€ф瘮杈冨ソ */
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    /* 榛樿鏈夌伆鑹茶竟妗嗘垜浠渶瑕佹墜鍔ㄥ幓鎺� */
+    border: 0;
+    outline: none;
+}
+
+body {
+    /* CSS3 鎶楅敮榻垮舰 璁╂枃瀛楁樉绀虹殑鏇村姞娓呮櫚 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+/* 娓呴櫎娴姩 */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}

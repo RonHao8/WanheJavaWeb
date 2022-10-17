@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝轮播图</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .slider{
+            width: 520px;
+            height: 280px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .arrow-l,.arrow-r{
+            position: absolute;
+            width: 24px;
+            height: 36px;
+            top: 50%;
+            margin-top: -18px;
+        }
+
+        .arrow-r{
+            right: 0;
+        }
+        .arrow-l{
+            left: 0;
+        }
+
+        ul{
+            list-style: none;
+        }
+        .circle{
+            width: 65px;
+            height: 13px;
+            /*background-color: pink;*/
+            background: rgba(255,255,255,0.3);
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            margin-left: -32px;
+            border-radius: 6px;
+        }
+
+        .circle li{
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background-color: #B7B7B7;
+            float: left;
+            margin: 2px;
+        }
+
+        /*.current{*/
+        /*    background-color: #f40;*/
+        /*}*/
+
+        .circle .current{/*权重问题*/
+            background-color: #f40;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <img src="image\taobao.jpg">
+        <a href="#" class="arrow-l"><img src="image\left.png"></a>
+        <a href="#" class="arrow-r"><img src="image\right.png"></a>
+        <ul class="circle">
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>

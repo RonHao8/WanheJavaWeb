@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内边距注意事项</title>
+    <style>
+        .box{
+            /*行内元素不要写上下padding,左右可以写，一般控制文字垂直居中，用行高即可*/
+            /*background-color: red;*/
+            /*padding: 30px;*/
+        }
+
+        .father{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        /*块元素宽度继承的是父元素width大小，但是和内边距没有关系*/
+        .son{
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <span class="box">css高级</span>
+    <div>111111111</div>
+
+    <div class="father">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

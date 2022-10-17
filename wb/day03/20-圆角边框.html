@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆角边框</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+        }
+
+        div:first-child{
+            border-radius: 20px;/*四个角都是20px弧度*/
+        }
+
+        div:nth-child(2){
+            /*border-radius: 100px;  宽高或者高度的一半，则会变成一个圆*/
+            border-radius: 50%;
+        }
+
+        div:nth-child(3){
+            border-radius: 10px 40px;/*左上角右下角10px  右上角左下角40px*/
+        }
+
+        div:nth-child(4){
+            border-radius: 10px 40px 80px;
+        }
+
+        div:nth-child(5){
+            border-radius: 10px 40px 80px 100px;/*左上 右上 又下 左下*/
+        }
+
+        div:nth-child(6){
+            border-radius: 10px 40px 80px 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>20px</div>
+    <div>50%或者100px</div>
+    <div>10px 40px</div>
+    <div>10px 40px 80px</div>
+    <div>10px 40px 80px 100px</div>
+    <div>123</div>
+</body>
+</html>
