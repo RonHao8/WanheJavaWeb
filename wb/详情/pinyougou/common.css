@@ -1,0 +1,209 @@
+/*框架部分*/
+.w{
+    width: 1200px;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #f3f5f7;
+}
+.copy{
+    width: 1200px;
+    height: 100px;
+    border-bottom: 1px solid #ccc ;
+}
+.copy li{
+    width: 240px;
+    height: 79px;
+    float: left;
+}
+.copy_tu{
+    float: left;
+    margin-left: 35px;
+    height: 50px;
+    width: 50px;
+}
+.copy_bao{
+    background: url("images/icons.png") repeat -252px -3px;
+}
+.copy_title {
+    float: left;
+    margin-left: 5px;
+}
+.copy_title h5{
+    margin: 5px 0;
+}
+.copy_title p{
+
+}
+
+.footer {
+    height: 418px;
+    background-color: #F5F5F5;
+    padding-top: 30px;
+}
+.footer .links {
+    float: right;
+    width: 1200px;
+    height: 200px;
+    text-align: left;
+}
+.footer .links dl {
+    width: 200px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 61px;
+}
+.footer .links dl dt {
+    font-size: 16px;
+    font-weight: 700;
+    color: #7d7d7d;
+    padding: 21px 0 13px;
+}
+.footer .links a  {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333333;
+}
+/*电器部分*/
+.electric{
+    width: 1200px;
+    margin-top: 20px;
+}
+.electric_head{
+    border-bottom: 2px solid #c81623;
+}
+.electric_head span{
+    color:#c81623;
+    font-weight: bold;
+    font-size: 18px;
+}
+.electric_head ul{
+    float: right;
+}
+.electric_head ul li{
+    padding: 0 10px;
+    border-right: 1px solid #e3e3e3;
+    float: left;
+}
+/*.electric_head a:first-child{*/
+/*color:#D03863;*/
+/*}*/
+.electric_head ul li a{
+    color: #333333;
+}
+.electric_head ul li:last-child{
+    border-right: 0;
+}
+.electric_head ul li:first-child{
+    color: #D03863;
+}
+/*.electric_head ul li:nth-child(2){*/
+/*color: #D03863;*/
+/*}*/
+.electric_inhead{
+    height: 360px;
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3;
+    border-top: 0;
+    background-color:#00FF00 ;
+}
+.electric_inhead div{
+    float: left;
+}
+.electric_inhead div img{
+    width: 100%;
+}
+.electric_index{
+    width:  209px;
+}
+.electric_index ul li{
+    height: 33px;
+    line-height: 33px;
+    width: 90px;
+    float: left;
+    text-align:  center;
+    border-bottom: 1px solid #e3e3e3;
+    margin-right: 10px;
+}
+.floor4{
+    width: 329px;
+    box-sizing: border-box;
+    border-left: 1px solid #e3e3e3 ;
+    border-right: 1px solid #e3e3e3;
+
+}
+/*喜欢部分*/
+.huan{
+    width: 100%;
+    height: 30px;
+}
+.love_hd li{
+    text-align: center;
+}
+.love_hd li:first-child{
+    float: left;
+
+}
+.love_hd li:last-child{
+    float: right;
+}
+.shuaxin{
+    float: right;
+    height: 30px;
+    width: 30px;
+}
+.sx{
+    background: url("images/icons.png") repeat -420px -103px;
+}
+.love{
+    height: 281px;
+    margin-top: 10px;
+
+}
+.love_hd{
+    height: 233px;
+    border: 1ch solid #e3e3e3;
+    box-sizing: border-box;
+}
+.product{
+    width: 202px;
+    height: 233px;
+    box-sizing: border-box;
+    padding: 14px 0 0 20px;
+    float: left;
+}
+.product img{
+    height: 141px;
+    width: 160px;
+}
+.product_text{
+    margin-left: 31px;
+    border-right: 1px solid #e3e3e3;
+}
+.product:last-child .product_text{
+    border-right: 0;
+}
+.product{
+    font-size: 12px;
+    width: 190px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.product span{
+    font-size: 14px;
+    color: #df3033;
+}

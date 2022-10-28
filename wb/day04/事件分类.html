@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        //执行顺序
+    </script>
+</head>
+<body>
+    <input type="button" value="单机" onclick="testClick">
+
+    <input type="button" value="双击" ondblclick="testDbClick">
+    <hr>
+
+    请输入用户名：
+    <input type="text" id="userName" value="4~12位字母或数字"
+     onblur="testBlur()"><span id="userNameTip"></span>
+    <hr>
+
+    请选择籍贯
+    <select onchange="testchange" id="jiguan">
+        <option value="广东">广东</option>
+        <option value="广西">广西</option>
+        <option value="湖南">湖南</option>
+    </select>
+    城市
+    <select id="city">
+        <option value="广东">广州</option>
+        <option value="广西">珠海</option>
+        <option value="湖南">深圳</option>
+    </select>
+</body>
+<script>
+    // <!--
+    // 点击相关的
+    //     单机：onclick
+    //     双击：ondblclick
+    // 焦点相关的：
+    //     聚焦:onfocus
+    //     失去焦点：onblur
+    // 选项相关的：
+    // 改变选项：onchange
+    // -->
+    function testClick() {
+        alert("触发了单击事件")
+    }
+    function testDbClick() {
+        alert("出发了双击事件")
+    }
+    function testFocus() {
+        document.getElementById("userName")
+        userName.value=""
+    }
+    function  testBlur() {
+        let userName = document.getElementById("userName").value;
+        // alert(userName)
+        let userNameTip =document.getElementById("userNameTip");
+        if(userName =="sam"){
+            //相同将span标签内容设置为"用户名被占用"
+           // let userNameTip =document.getElementById("userNameTip");
+            userNameTip.innerHTML="用户名被占用".fontcolor("red")
+        }else {
+            //相同将span标签内容设置为"用户名可用"
+            //let userNameTip =document.getElementById("userNameTip");
+            userNameTip.innerHTML="用户名可用".fontcolor("green")
+        }
+    }
+
+    function testchange() {
+        let jiguan = document.getElementById("jiguan").value;//获取用户选择的省份
+        alert(jiguan)
+        let city = document.getElementById("city").value;//添加城市
+
+        if (jiguan == "广东") {
+            let arr = ["广州","珠海","深圳"];
+            for (let i = 0; i < arr, length; i++) {
+                city.innerHTML += "<option value='"+ arr[i]+ "'>" +arr[i] + "</option>";
+            }
+        }
+
+        if (jiguan == "广西") {
+            let arr = ["柳州","桂林","南宁"];
+            for (let i = 0; i < arr, length; i++) {
+                city.innerHTML += "<option value='"+ arr[i]+ "'>" +arr[i] + "</option>";
+            }
+        }
+
+        if (jiguan == "湖南") {
+            let arr = ["长沙","湘潭","梓州"];
+            for (let i = 0; i < arr, length; i++) {
+                city.innerHTML += "<option value='"+ arr[i]+ "'>" +arr[i] + "</option>";
+            }
+        }
+    }
+
+</script>
+</html>

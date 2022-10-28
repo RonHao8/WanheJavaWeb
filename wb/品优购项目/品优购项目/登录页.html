@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人登录</title>
+    <!-- 引入favicon.ico图标 -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- 引入初始化的css -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入登录页面的css -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+<div class="w">
+    <header>
+        <div class="logo">
+            <a href="首页.html"><img src="images/logo.png" alt=""></a>
+        </div>
+    </header>
+    <div class="loginArea">
+        <h3>登录
+            <div class="login">我没有账号，去<a href="">注册</a></div>
+        </h3>
+        <div class="login_form">
+            <form action="/login.do" id="loginForm" method="post">
+                <input name="method" value="login" type="hidden">
+                <ul>
+                    <li>
+                        <label for="phone">手机号：</label>
+                        <input type="text" class="inp" name="phone" id="phone">
+                        <span class="error" id="span-phone">
+                                <i id="i-phone"></i>
+                                <em id="em-phone"></em>
+                            </span>
+                    </li>
+                    <li>
+                        <label for="password">登录密码：</label>
+                        <input type="password" class="inp" name="password" id="password">
+                        <span class="success" id="span-password">
+                                <i  id="i-password"></i>
+                                <em id="em-password"></em>
+                            </span>
+                    </li>
+                    <li class="agree">
+                        <input type="checkbox" name="checkbox" id="checkbox" checked="checked"><label for="checkbox">同意协议并登录 </label>
+                        <a href="#">《知晓用户协议》</a>
+                    </li>
+                    <li>
+                        <input type="button" value="登录" class="btn" id="login-btn">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="mod_copyright">
+            <div class="links">
+                <a href="#">关于我们</a> | <a href="#">联系我们</a> | 联系客服 | 商家入驻 | 营销中心 | 手机品优购 | 友情链接 | 销售联盟 | 品优购社区 |
+                品优购公益 | English Site | Contact U
+            </div>
+            <div class="copyright">
+                地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn <br>
+                京ICP备08001421号京公网安备110108007702
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/jQuery.md5.js"></script>
+
+
+<script src="js/login.js"></script><div style="position: static; width: 0px; height: 0px; border: none; padding: 0px; margin: 0px;"><div id="trans-tooltip"><div id="tip-left-top" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-left-top.png&quot;);"></div><div id="tip-top" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-top.png&quot;) repeat-x;"></div><div id="tip-right-top" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-right-top.png&quot;);"></div><div id="tip-right" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-right.png&quot;) repeat-y;"></div><div id="tip-right-bottom" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-right-bottom.png&quot;);"></div><div id="tip-bottom" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-bottom.png&quot;) repeat-x;"></div><div id="tip-left-bottom" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-left-bottom.png&quot;);"></div><div id="tip-left" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-left.png&quot;);"></div><div id="trans-content"></div></div><div id="tip-arrow-bottom" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-arrow-bottom.png&quot;);"></div><div id="tip-arrow-top" style="background: url(&quot;chrome-extension://aimfoaockjgdhaipifjjfkkbloeomobi/imgs/map/tip-arrow-top.png&quot;);"></div></div>
+</body>
+</html>

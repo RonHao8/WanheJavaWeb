@@ -1,0 +1,197 @@
+.nav {
+    line-height: 45px;
+}
+
+.nav ul li {
+    float: left;
+    padding: 0 27.5px;
+    font-size: 13px;
+}
+
+.middle{
+    height: 1010px;
+    /* background-color: pink; */
+    position: relative;
+    top: -45px;
+}
+
+.sp_box {
+    height: auto;
+    width: 100%;
+    background-color: #fee9eb;
+}
+
+.fp{
+    background-image: url("images/list-bg.png");
+    height: 113px;
+    width: 100%;
+}
+/*高跟鞋*/
+.fp img{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 46%;
+}
+
+/*女鞋*/
+.fp span{
+    color: #e60012;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 50px;
+}
+
+/*正在抢购*/
+.fp_in{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 41%;
+    position: relative;
+}
+
+.fp_in line{
+    flex:1;
+    position: relative;
+    top:-6px;
+    border-bottom: 1px solid rgb(0,0,0);
+}
+
+.fp_in text{
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.sp ul li {
+    width: 278px;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0 10px;
+    border: 1px #fff solid;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.sp ul li:hover{
+    border: 1px solid red;
+    transition: all .3s;
+}
+
+
+.sp ul li img {
+    width: 100%;
+}
+.sp ul li p {
+    width: 96%;
+    margin-left: 2%;
+}
+
+/*商品介绍*/
+.sp ul li p:nth-child(2) {
+    color: #666;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+/*抢购价*/
+.sp ul li p:nth-child(3) span {
+    color: #e60012;
+    font-size: 22px;
+}
+
+/*原价*/
+.sp ul li p:nth-child(3) del {
+    color: #a4a4a4;
+    font-size: 14px;
+}
+/*已售量*/
+.sp ul li p:nth-child(4) span {
+    color: #a4a4a4;
+    font-size: 14px;
+}
+
+/*剩余量*/
+.sp ul li p:nth-child(4) > span:last-child {
+    display: block;
+    float: right;
+}
+
+/*剩余量 数字*/
+.sp ul li p:nth-child(4) span span {
+    color: #e60012;
+    font-size: 16px;
+}
+
+/*进度图*/
+.sp ul li p:nth-child(4) meter {
+    width: 120px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/*进度图 红色*/
+.sp ul li p:nth-child(4) meter::-webkit-meter-optimum-value {
+    background: red;
+}
+
+/*立即抢购*/
+.sp ul li button{
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    height: 51px;
+    line-height: 51px;
+    width: 100%;
+    border: 0;
+    font-size: 18px;
+}
+
+
+/*页面跳转*/
+.hp {
+    margin: 40px 0;
+    text-align: center;
+}
+
+/*页码*/
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+/*上一页 下一页*/
+.page_num .pn_prev, .page_num .pn_next {
+    width: 83px;
+}
+
+/*省略页 当前页*/
+.page_num .dotted, .page_num .current {
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+/*页面输入*/
+.page_skip input {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+/*开始跳转*/
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}

@@ -1,0 +1,9 @@
+头部分在：头部分.html中
+底部分在：底部分.html中
+
+只需复制粘贴body中的代码，然后在自己页面中的head部分引入css文件即可，如下：
+
+<!--    /*引入base.css*/-->
+    <link rel="stylesheet" href="base.css">
+<!--    引入head-footer.css-->
+    <link rel="stylesheet" href="head-footer.css">

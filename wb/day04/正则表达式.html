@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //RegExp:正则表达式对象
+        //验证手机号：第一位1，第二位358，第三位到第十一位必须是数字，总长度11
+        let reg = /^[1][358][0-9]{9}$/;
+        //RegExp的test()方法
+        document.write(reg.test("18625896365"));
+
+        //验证用户名
+        //验证规则：字母，数字，下划线组成，总长度4-16
+        let reg1 = /^[a-zA-Z_0-9]{4,16}$/;
+        document.write(reg1.test("zhang_san123"))
+
+        //练习：邮箱验证
+        /*
+        zy@wanho.cn
+        以大小写字母，数字，下划线，减号以及.开头，并可以重复一次至对此
+        中间@
+        @之后连接大小写字母，数字，下划线，减号以及. 并可以重复一次至多次
+        结尾必须是.连接2到4位大小写字母
+        */
+    </script>
+</body>
+</html>

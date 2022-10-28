@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        em, i {
+            font-style: normal;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            border: 0;  /*ie6*/
+            vertical-align: middle;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #e33333;
+        }
+
+        button, input {
+            outline: none;
+
+        }
+
+        body {
+            background-color: #fff;
+            font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+            color: #666
+        }
+
+        .w {
+            width: 1220px;
+            margin: 0 auto;
+        }
+
+        /*顶部框*/
+        .top {
+            width: 100%;
+            height: 31px;
+            background-color: #f1f1f1;
+            line-height: 31px;
+        }
+        .top li {
+            float: left;
+        }
+        /*顶部左边*/
+        .top-left {
+            float: left;
+        }
+        .top .top-left li {
+            padding: 0 7px;
+        }
+        /*请注册颜色*/
+        .style_red {
+            color: #c81623;
+        }
+        /*顶部右边*/
+        .top-right {
+            float: right;
+        }
+        .top .top-right li a {
+            padding: 0 14px;
+            border-right: 1px #ccc solid;
+        }
+
+
+        /*   v < 符号*/
+        @font-face{
+            font-family: 'iconfont';
+            src: url('fonts/icomoon.eot?7kkyc2');
+            src: url('fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.ttf?7kkyc2') format('truetype'),
+            url('fonts/icomoon.woff?7kkyc2') format('woff'),
+            url('fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+        }
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 12px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .style_border_none {
+            border: none !important;
+        }
+
+        /*公共头部*/
+        .header {
+            height: 105px;
+            /* background-color: pink; */
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 175px;
+            height: 56px;
+        }
+
+        .search {
+            position: absolute;
+            top: 25px;
+            left: 348px;
+            overflow: hidden;
+        }
+        .search input[type="text"] {
+            width: 400px;
+            height: 32px;
+            border: 2px #b1191a solid;
+            color: #ccc;
+            padding-left: 10px;
+            float: left;
+        }
+        .search button {
+            height: 36px;
+            width: 82px;
+            background-color: #b1191a;
+            border: 0;
+            float: left;
+            color: #fff;
+        }
+        /*头部搜索下的9个词*/
+        .words {
+            position: relative;
+            top: 65px;
+            left: 350px;
+            height: auto;
+            width: 500px;
+            overflow: hidden;
+        }
+
+        /*词之间的间隔*/
+        .words li {
+            padding: 0 7px;
+            float: left;
+        }
+        /*头部购物车*/
+        .shopcar {
+            height: 34px;
+            line-height: 34px;
+            width: 138px;
+            position: absolute;
+            top: 25px;
+            right: 30px;
+            border: 1px solid #dfdfdf;
+            background-color: #f7f7f7;
+            text-align: center;
+        }
+
+        .shopcar .car {
+            position: absolute;
+            padding: 0 7px;
+            width: 30px;
+            height: 30px;
+            margin-left: -25px;
+            background-image: url(images/icons.png);
+            /*background-color: red;*/
+            background-position: 160px -81px;
+        }
+
+        .shopcar .iconfont:first-child {
+            color: red;
+        }
+        .shopcar .count {
+            position: absolute;
+            top: -5px;
+            left: 100px;
+            color: #fff;
+            background-color: #e60012;
+            height: 14px;
+            line-height: 14px;
+            padding: 0 3px;
+            border-radius: 7px 7px 7px 0;
+        }
+
+        /*全部商品分类栏*/
+        .nav {
+            height: 45px;
+            border-bottom: 2px solid #b1191a;
+        }
+
+        .dropdown {
+            width: 209px;
+            height: 45px;
+            background-color: pink;
+        }
+        .dropdown .menu-top {
+            width: 100%;
+            height: 100%;
+            background-color: #b1191a;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            line-height: 45px;
+        }
+        .dropdown .menu-list {
+            margin-top: 2px;
+            height: 465px;
+            background-color: #c81623;
+        }
+
+
+        .navitems {
+            margin-left: 50px;
+        }
+        .fl {
+            float: left;
+        }
+
+        .navitems li {
+            text-align: center;
+            float: left;
+        }
+        .navitems li a {
+            display: block;
+            height: 45px;
+            line-height: 45px;
+            padding: 0 25px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+<!--顶部部分-->
+<div class="top">
+    <div class="w">
+        <div class="top-left">
+            <ul>
+                <li>品优购欢迎您!</li>
+                <li>
+                    <a href="#">请登录</a>
+                    <a href="#" class="style_red">请注册</a>
+                </li>
+            </ul>
+        </div>
+        <div class="top-right">
+            <ul>
+                <li><a href="#">我的订单</a></li>
+                <li>
+                    <a href="#">我的品优购
+                        <span class="iconfont">	&or;</span>
+                    </a>
+                </li>
+                <li><a href="#">品优购会员</a></li>
+                <li><a href="#">企业采购</a></li>
+                <li>
+                    <a href="#">关注品优购
+                        <span class="iconfont">	&or;</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">客户服务</a>
+                </li>
+                <li>
+                    <a href="#" class="style_border_none">网站导航
+                        <span class="iconfont">	&or;</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--公共头部-->
+<!--搜索标志存在问题-->
+<div class="header w">
+    <div class="logo">
+        <img src="images/logo.png">
+    </div>
+    <!-- 搜索部分 -->
+    <div class="search">
+        <input type="text" placeholder="语法开发">
+        <button>搜索</button>
+    </div>
+
+    <!--    搜索下的关键词-->
+    <div class="words">
+        <ul>
+            <a href="#"><li>品优购</li></a>
+            <a href="#"><li>优惠购</li></a>
+            <a href="#"><li>首发</li></a>
+            <a href="#"><li>亿元优惠</li></a>
+            <a href="#"><li>9.9元团购</li></a>
+            <a href="#"><li>美满99减30</li></a>
+            <a href="#"><li>办公用品</li></a>
+            <a href="#"><li>电脑</li></a>
+            <a href="#"><li>通信</li></a>
+        </ul>
+    </div>
+
+    <!--    购物车-->
+    <!--  购物车标志存在问题  -->
+    <div class="shopcar">
+        <a href="#">
+            <span class="car"></span>
+            <span class="iconfont">&#xe60d;</span>
+            我的购物车
+            <span class="iconfont">&#xe738;</span>
+            <span class="count">88+</span>
+        </a>
+    </div>
+</div>
+
+
+<!--全部商品分类栏-->
+<div class="nav">
+    <div class="w">
+        <div class="dropdown fl">
+            <div class="menu-top">
+                全部商品分类<span class="iconfont">&#xe60c;</span>
+            </div>
+        </div>
+
+        <!-- 关键词-->
+        <div class="navitems fl">
+            <ul>
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">美妆馆</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">万和超市</a></li>
+                <li><a href="#">全球购</a></li>
+                <li><a href="#">海鲜</a></li>
+                <li><a href="#">拍卖</a></li>
+                <li><a href="#">有趣</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,5 +1,6 @@
 package com.itwanho.sys.info.manager.service;
 
+import com.itwanho.sys.info.manager.dao.BaseStudentDao;
 import com.itwanho.sys.info.manager.dao.OtherStudentDao;
 import com.itwanho.sys.info.manager.dao.StudentDao;
 import com.itwanho.sys.info.manager.domain.Student;
@@ -15,7 +16,7 @@ public class StudentService {
 
     //通过学生库管工厂类，获取库管对象
     //private OtherStudentDao studentDao = StudentDaoFactory.getStudentDao();
-    private StudentDao studentDao = StudentDaoFactory.getStudentDao();
+    private BaseStudentDao studentDao = StudentDaoFactory.getStudentDao();
 
 
     //添加学生信息

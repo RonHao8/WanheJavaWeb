@@ -1,0 +1,399 @@
+/*首页前半部分*/
+/*全部商品分类栏*/
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+    width: 209px;
+    height: 45px;
+    background-color: pink;
+}
+.dropdown .menu-top {
+    width: 100%;
+    height: 100%;
+    background-color: #b1191a;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+}
+.dropdown .menu-list {
+    /*margin-top: -1px;*/
+    height: 465px;
+    background-color: #c81623;
+}
+
+.menu {
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    margin-left: 1px;
+    padding: 0 10px;
+}
+.menu a {
+    font-size: 14px;
+    color: #fff;
+}
+.menu span {
+    float: right;
+}
+
+.arrow2 {
+    float: right;
+    font-family: "icomoon";
+    color: #fff;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.menu:hover {
+    background-color: #fff;
+}
+.menu:hover a {
+    color: #b1191a;
+}
+.keywords {
+    margin-left: 50px;
+}
+.fl {
+    float: left;
+}
+
+.keywords li {
+    text-align: center;
+    float: left;
+}
+.keywords li a {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+/*大牌pk图片*/
+.top-center {
+    height: 455px;
+    width: 1000px;
+    margin: 10px 0 0 219px;
+    position: relative;
+    top: -45px;
+}
+
+
+.top-center .picture{
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 480px;
+    width: 721px;
+}
+.picture ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+.picture ul li {
+    float: left;
+}
+.arrow-l, .arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    width: 24px;
+    height: 40px;
+    background-color: rgba(0,0,0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+.arrow-r {
+    right: 0;
+}
+/*小圆圈*/
+.circle {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 80px;
+    height: 10px;
+    margin-left: -25px;
+}
+
+/*小圆圈的颜色*/
+.current {
+    background-color: #fff;
+}
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgba(255,255,255,0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+/*快报部分*/
+.kuaibao {
+    height: 165px;
+    width: 260px;
+    float: right;
+    box-sizing: border-box;
+    border: 1px #e4e4e4 solid;
+}
+.kuaibao .kuaibao-more {
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.bigsize{
+    font-size: large;
+}
+.kuaibao .kuaibao-more div span:last-child {
+    display: block;
+    float: right;
+}
+
+/*特惠部分*/
+.tehui {
+    width: 100%;
+    height: 132px;
+    padding: 12px 0 0 16px;
+    box-sizing: border-box;
+}
+.tehui ul li {
+    line-height: 1;
+    padding-bottom: 13px;
+}
+.tehui ul li:last-child {
+    padding-bottom: 0;
+}
+
+
+/*话费*/
+.huafei {
+    overflow: hidden;
+    width: 260px;
+    height: 210px;
+    float: right;
+    border: 1px solid #e4e4e4;
+}
+.huafei ul {
+    width: 260px;
+}
+.huafei ul li {
+    float: left;
+    width: 65px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.huafei ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    background: url(../images/icons.png) no-repeat -19px -15px;
+    cursor: pointer;
+}
+
+/*男装图片*/
+.man-cloth {
+    margin-left: 2px;
+    margin-top: 215px;
+}
+
+/*今日推荐部分*/
+.today {
+    width: 1220px;
+    height: 163px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: -6px;
+    position: relative;
+    top: -55px;
+}
+.today-left {
+    width: 213px;
+    height: 163px;
+    background-color: #5c5251;
+    color: #fff;
+    text-align: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 7px;
+}
+
+.today-left p {
+    font-size: 18px;
+}
+.today-right {
+    height: auto;
+    width: 250px;
+    float: right;
+    border-right: 1px solid #e3e3e3;
+}
+.today-right img {
+    height: 163px;
+    width: 251px;
+    border-left: 1px solid #e3e3e3;
+}
+
+
+/*首页后半部分*/
+/*电器部分*/
+.electric{
+    width: 1220px;
+    margin-top: 20px;
+}
+.electric_head{
+    border-bottom: 2px solid #c81623;
+}
+.electric_head span{
+    color:#c81623;
+    font-weight: bold;
+    font-size: 18px;
+}
+.electric_head ul{
+    float: right;
+}
+.electric_head ul li{
+    padding: 0 10px;
+    border-right: 1px solid #e3e3e3;
+    float: left;
+}
+
+.electric_head ul li a{
+    color: #333333;
+}
+.electric_head ul li:last-child{
+    border-right: 0;
+}
+.electric_head ul li:first-child{
+    color: #D03863;
+}
+
+.electric_inhead{
+    height: 360px;
+    box-sizing: border-box;
+    border: 1px solid #e3e3e3;
+    border-top: 0;
+    background-color:#00FF00 ;
+}
+.electric_inhead div{
+    float: left;
+}
+.electric_inhead div img{
+    width: 100%;
+}
+.electric_index{
+    width:  209px;
+}
+.electric_index ul li{
+    height: 33px;
+    line-height: 33px;
+    width: 90px;
+    float: left;
+    text-align:  center;
+    border-bottom: 1px solid #e3e3e3;
+    margin-right: 10px;
+}
+.electric_head a:hover{
+    color: red;
+}
+.floor4{
+    width: 329px;
+    box-sizing: border-box;
+    border-left: 1px solid #e3e3e3 ;
+    border-right: 1px solid #e3e3e3;
+
+}
+/*喜欢部分*/
+.huan{
+    width: 100%;
+    height: 30px;
+}
+.huan li{
+    height: 30px;
+    width: 90px;
+    text-align: center;
+}
+.huan li:first-child{
+    float: left;
+    margin-top: 1px;
+
+
+}
+.huan li:last-child{
+    float: right;
+    margin-top: 1px;
+
+}
+.shuaxin{
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 1px;
+}
+.sx{
+    background: url("../images/icons.png") repeat -420px -108px;
+
+}
+.love{
+    height: 281px;
+    margin-top: -20px;
+
+}
+.love_hd{
+    position: relative;
+    overflow: hidden;
+    height: 233px;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    background-color:#FFFFFF ;
+}
+.product{
+    /*overflow: hidden;*/
+    position: relative;
+    width: 202px;
+    height: 233px;
+    box-sizing: border-box;
+    float: left;
+}
+.product img{
+    height: 155px;
+    width: 190px;
+}
+.product_text{
+    margin-left: 31px;
+    border-right: 1px solid #e3e3e3;
+}
+.product:last-child .product_text{
+    border-right: 0;
+}
+
+.product_text p{
+    font-size: 125%;
+}
+.product span{
+    font-size: 15px;
+    color: #df3033;
+}

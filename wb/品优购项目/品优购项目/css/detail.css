@@ -1,0 +1,291 @@
+/*给每一个选项添加距离*/
+.crumb_wrap span {
+    margin: 0 7px;
+}
+.crumb_wrap{
+    height: 30px;
+
+}
+
+
+.crumb_wrap a{
+    font-weight: 700;
+    font-size: 16px;
+    /*消除下划线*/
+    text-decoration: none;
+
+
+}
+/*把大盒子离顶的距离加长一点*/
+.de_container {
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+    top:-45px;
+}
+
+.preview_wrap{
+    width: 400px;
+    height: 500px;
+    float: left;
+
+
+}
+.preview_img{
+    height: 398px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    vertical-align: middle;
+    line-height: 398px;
+    text-align: center;
+}
+.preview_list{
+    /*定位用的*/
+    height: 100px;
+    width: 400px;
+    position: relative;
+    margin-top: 40px;
+
+
+}
+.list_item{
+    width: 288px;
+    margin-left: 60px;
+
+}
+.list_item li{
+    margin-bottom: 10px;
+    float: left;
+    height: 60px;
+    width: 56px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+
+}
+.list_item li img{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 39px;
+    padding: 0px auto;
+    margin-left: 10px;
+}
+.list_item li.current{
+    /*border-color: #c81623;*/
+}
+.list_item  li:hover{
+    border: 1px  solid #c81623 ;
+    transition: all .3s;
+}
+
+/*手机旁边的两个箭头*/
+.arrow_prev,
+.arrow_next{
+    /*定位用的*/
+    position: absolute;
+    top: 13px;
+    width: 22px;
+    height: 32px;
+
+}
+.arrow_prev{
+    left: 0;
+    background: url("../upload/arrow_prev.png");
+}
+.arrow_next{
+    right: 0;
+    background: url("../upload/arrow_next.png");
+}
+/*手机旁边的两个箭头 结束*/
+
+.itemInfo_wrap{
+    width: 718px;
+    float: right;
+}
+.sku_name{
+    height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.news{
+    color: #e12228;
+    height: 32px;
+    font-size: 8px;
+}
+/*-------------------*/
+/*清除没有定义高度从而导致的浮动的影响*/
+.summary dl{
+    overflow: hidden;
+
+}
+/*----------------------*/
+/*将两个盒子悬浮并排*/
+.summary dt,
+.summary dd{
+    float: left;
+}
+.summary dt{
+    width: 80px;
+    padding-left: 10px;
+    line-height: 32px;
+
+
+}
+
+
+/*--------------*/
+
+
+
+
+
+
+.summary_price,
+.summary_promotion{
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.price{
+    font-size: 24px;
+    color: #e12228;
+}
+.summary_price a {
+    color: #c81623;
+}
+.remark{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.summary_promotion{
+    padding-top: 0;
+}
+.summary_promotion dd {
+    width: 600px;
+    line-height: 33px;
+
+}
+.summary_promotion em{
+    background-color: #c81623;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+}
+.summary_support{
+    line-height: 32px;
+}
+.summary_stock{
+    border-bottom: 1px solid #ccc;
+    line-height: 32px;
+}
+.choose_color a{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    color: #937161;
+}
+.choose_color a.current{
+    border-color: #c81623;
+}
+.choose_version{
+    margin: 10px 0;
+}
+.choose_version a,
+.choose_type a{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    color: #937161;
+}
+.summary a.current{
+    border-color: #c81623;
+}
+.choose_capacity{
+    margin: 10px 0;
+}
+.choose_capacity a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    color: #937161;
+}
+.choose_suit{
+    margin: 10px 0;
+}
+.choose_suit a{
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+    text-decoration: none;
+    color: #937161;
+}
+
+.choose_amount{
+    right: 0;
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+    background-color: pink;
+}
+.addcar{
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.choose_amount input{
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+/*加减组件*/
+.add,
+.reduce{
+    position: absolute;
+    text-decoration: none;
+    width: 15px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+/*定位加减的位置*/
+.add{
+    top: 0;
+}
+.reduce{
+    bottom: 0;
+    /*禁止鼠标样式*/
+    cursor: not-allowed;
+}

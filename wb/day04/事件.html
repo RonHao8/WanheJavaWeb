@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+</head>
+<body>
+    <img id="img" src="img/01.png">
+    <br>
+    <!--<button id="up" onclick="up()">上一张</button>-->
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+
+    <!--<button id="down " onclick="down()">下一张</button>-->
+    <button id="up" >上一张</button>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <button id="down ">下一张</button>
+</body>
+<script>
+    function up() {
+        let img = document.getElementById("img");
+        img.setAttribute("src","img/01.png");//修改标签属性值
+
+    }
+    function down() {
+        let img = document.getElementById("img");
+        img.setAttribute("src","img/02.png");//修改标签属性值
+
+    }
+
+    let upBtn = document.getElementById("up");
+    upBtn.onclick = up ;
+
+    let downBtn = document.getElementById("down");
+    downBtn.onclick = down ;
+
+
+</script>
+</html>

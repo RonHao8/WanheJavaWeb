@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        //分类：一次性定时器  循环定时器（轮播图）
+        /*
+        一次性定时器：setTimeout(功能，毫秒值)
+        取消一次性定时器：cleaarTimeout(标识)
+
+        循环定时器：setInterval(功能，毫秒值)
+        取消循环定时器，clearInterval(标识)
+        */
+
+        //一次性定时器
+        function fun() {
+            alert("该起床了，学习了");
+        }
+
+        //这只一次性定时器
+        // let d1 = setTimeout("fun()",3000);
+
+        //取消一次性定时器
+        //clearTimeout(d1);
+
+        //循环定时器
+        let d2 = setInterval("fun()",3000)
+
+        //取消定时器
+        clearInterval(d2);
+    </script>
+</body>
+</html>

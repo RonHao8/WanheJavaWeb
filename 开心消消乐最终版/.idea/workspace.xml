@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1121f757-67c9-4f72-af65-b9fa6b6a9201" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../wb/day04/定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/aside_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/aside_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/aside_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/aside_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/aside_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/detail_img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/floor-2-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/ldsx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/nvxie1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/nvxie2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/nvxie3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/nvxie4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/ppwh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pre1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pre2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pre3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pre4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/pre5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/s2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pinyougou/upload/sscd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-moon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-pc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-tb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-tb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/fonts/icon-touch.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/regetype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/images/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-account.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/page-member.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/styles/xzoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/car.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/disabled-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/disabled-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/fs7805.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/sanjiao.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/secBuy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/secKill_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/state_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/pyg/uploads/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/arrow_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/arrow_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/参考版/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购5.0/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购5.0/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购5.0/js/jQuery.md5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购5.0/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购5.0/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/头部分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/尾部分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/详情页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/首页后半部分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版/品优购/首页完整版.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购不完整版1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/(新版)首页修改后完整版.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/头部分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/尾部分.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/详情页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/首页(旧版).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/品优购首页感觉完整版(最新)/品优购/首页旧版.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/arrow-r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/erweima_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/list-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/miaosha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/shoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/images/sprite_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/arrow_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/arrow_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/details-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/details.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/floor_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/floor_04_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/guess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/rec-item_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/upload/site-banner_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/头尾.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/首页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/首页222.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../wb/详情/pinyougou/首页修改后完整版.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/out/production/HappyEliminateGame/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HappyEliminateGame/src/cn/itwanho/eliminate/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyEliminateGame/src/img/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/factory/StudentDaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itwanho-system-info-manager/itwanho-system-info-manager/src/com/itwanho/sys/info/manager/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/test01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/fonts/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/fonts/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/fonts/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/fonts/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/arrow-r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/clock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/erweima_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/list-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/miaosha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/shoe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/images/sprite_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/details-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/details.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/floor_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/floor_04_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/guess.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/pro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/rec-item_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/upload/site-banner_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/列表页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/头.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/头尾.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/详情页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购/首页222.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购2/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/../wb/品优购2/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wb/品优购3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/HappyEliminateGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Bear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Fox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../新建文件夹/HappyEliminateGame/src/cn/itwanho/eliminate/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/HappyEliminateGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Bear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Bird.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Fox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/Images.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/cn/itwanho/eliminate/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/out/production/HappyEliminateGame/img/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Bird.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Fox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/Images.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/cn/itwanho/eliminate/World.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bom1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bom2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bom3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/bom4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/fox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../最终版/HappyEliminateGame/src/img/frog.png" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/World.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Images.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="69" />
+    <option name="y" value="333" />
+    <option name="width" value="1470" />
+    <option name="height" value="1230" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="HappyEliminateGame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="HappyEliminateGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="HappyEliminateGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="HappyEliminateGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itwanho" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="开心消消乐最终版" type="b2602c69:ProjectViewProjectNode" />
+              <item name="开心消消乐最终版" type="462c0819:PsiDirectoryNode" />
+              <item name="HappyEliminateGame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itwanho" type="462c0819:PsiDirectoryNode" />
+              <item name="eliminate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HappyEliminateGame" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1121f757-67c9-4f72-af65-b9fa6b6a9201" name="Default Changelist" comment="" />
+      <created>1666358094687</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666358094687</updated>
+      <workItem from="1666358096095" duration="94000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Images.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Bear.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/Frog.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HappyEliminateGame/src/cn/itwanho/eliminate/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="41" selection-end-line="47" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

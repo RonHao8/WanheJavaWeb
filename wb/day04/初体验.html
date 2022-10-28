@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button id="btn"></button>
+    <!--
+    scrip在页面可以出现多次
+    script标签可以在页面的任何位置
+    script标签一旦引入外部的js文件，那么标签体内容失效
+    js代码加载的顺序是从上到下，从左到右顺序
+    -->
+</body>
+<script>
+    document.getElementById("btn").onclick=function (ev) {
+        alert("点我")
+    }
+</script>
+</html>
